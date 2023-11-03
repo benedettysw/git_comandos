@@ -1,5 +1,16 @@
-function suma(a,b) {
-    return a+b
+function sumaf(a,b) {
+    let a;
+    let b;
+
+    let suma = parseInt(a) + parseInt(b);
+
+    document.getElementById("res").innerHTML = suma ;
+
+    if (suma % 2 == 0 ){
+    alert("el numero es par");
+    }else{
+    alert("el numero no es par");
+    }
 }
 
 
