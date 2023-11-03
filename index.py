@@ -1,3 +1,7 @@
+def valuesUser(nameUser, passUser):
+    if nameUser == "admin" and passUser == "1234":
+        data = "ok"
+    return print(data)
 a = input("ingresa un numero:  ")
 
 
